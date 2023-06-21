@@ -1,0 +1,21 @@
+.cards {
+  display: inline-block;
+  text-align: left;
+  border: 1px solid skyblue;
+  border-radius: 10%;
+  box-shadow: 10px 10px grey;
+  margin: 10px;
+  padding: 10px;
+}
+
+.deletebtn {
+  color: #f44336;
+  background-color: white;
+  border: none;
+}
+
+.update-icon {
+  background-color: white;
+  border: none;
+  float: right;
+}
