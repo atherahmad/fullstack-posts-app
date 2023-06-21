@@ -28,7 +28,7 @@ app.use('/api/posts', postRouter)
 app.use('/api/auth', authRouter)
 console.log(path.join(publicFolder,"index.html"))
 
-app.get("/", (req, res, next) => {
+app.get("/*", (req, res, next) => {
     res.sendFile(path.join(publicFolder,"index.html"))
 })
 connectDB()
